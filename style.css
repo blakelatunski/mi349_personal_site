@@ -1,0 +1,18 @@
+body {
+    background: #141414;
+    color: #ffffff;
+    font-family: Helvetica;
+}
+
+ul{
+    text-decoration: green underline;
+    border-left: 5px solid green;
+    font-size: 25px;
+}
+
+#gamedev{
+    width: 250px;
+    border: 10px dashed green;
+    position: relative;
+    right: -700px;
+}
