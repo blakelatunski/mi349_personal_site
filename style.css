@@ -1,18 +1,75 @@
 body {
-    background: #141414;
-    color: #ffffff;
-    font-family: Helvetica;
+    font-family: serif;
+    text-align: center;
 }
 
 ul{
     text-decoration: green underline;
-    border-left: 5px solid green;
     font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 #gamedev{
     width: 250px;
     border: 10px dashed green;
     position: relative;
-    right: -700px;
+
+}
+
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.flexbox-item-2 {
+    min-height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.flexbox-item-3 {
+    min-height: 100px;
+    font-weight: bold;
+}
+
+.flexbox-item-4 {
+    min-height: 100px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.intro {
+    padding-top: 25px;
+    font-weight: normal;
+}
+
+.free {
+    font-weight: normal;
+}
+
+.list {
+    padding-top: 25px;
+    font-weight: normal;
+}
+
+.info {
+    font-weight: normal;
+    padding-top: 10px;
 }
